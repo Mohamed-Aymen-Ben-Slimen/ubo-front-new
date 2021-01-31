@@ -1,0 +1,29 @@
+.activitiesList {
+  background: #FCF3EA 0 0 no-repeat padding-box;
+  width: 30%;
+  height: 100vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
+.activityInfo {
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  opacity: 1;
+  width: 70%;
+  height: 100vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.activitiesList::-webkit-scrollbar {
+  display: none;
+}
+
+.activityInfo::-webkit-scrollbar {
+  display: none;
+}

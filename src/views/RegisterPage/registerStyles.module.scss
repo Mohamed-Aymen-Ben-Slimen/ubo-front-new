@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.uboRegister {
+  position: fixed;
+  top: 30vh;
+  right: 10vw;
+}
+
+
+.loginForm {
+  position: relative;
+  left: -16vw;
+  padding: 30px;
+
+
+  .loginHeader {
+    font: normal normal normal 69px/83px Fredoka One;
+    letter-spacing: 0.69px;
+    color: #5499D0;
+    opacity: 1;
+  }
+
+  .loginText {
+    text-align: center;
+    font: normal normal bold 20px/32px Lato;
+    letter-spacing: 0.2px;
+    color: #9A9A9A;
+    opacity: 1;
+  }
+
+  .loginTextField {
+    border-radius: 34px;
+    opacity: 1;
+  }
+
+  .loginButton {
+    background: #FACA78 0 0 no-repeat padding-box;
+    border-radius: 44px;
+    opacity: 1;
+    padding: 5px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .loginButtonLabel {
+      text-align: center;
+      margin: 0;
+      font: normal normal normal 24px Fredoka One;
+      color: #FFFFFF;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  .linkToRegisterText {
+    font: normal normal bold 17px/25px Lato;
+    letter-spacing: 0.17px;
+    color: #CBCBCB;
+    opacity: 1;
+    margin: 10px 0 0 0;
+    text-align: center;
+
+    .linkToRegister {
+      font: normal normal normal 17px/25px Fredoka One;
+      letter-spacing: 0.17px;
+      color: #83D3F4;
+      opacity: 1;
+    }
+
+  }
+
+}
+
+@keyframes animateHead {
+  from { transform: translateX(-20vw);}
+  to { transform: translateX(1.4vw);}
+}
+
+@keyframes translateArm {
+  from { transform: translateX(-20vw);}
+  to { transform: translateX(1.5vw);}
+}
+
+@keyframes shakeArm {
+  0% { transform: rotateZ(0deg);}
+  50% { transform: rotateZ(16deg);}
+  100% { transform: rotateZ(0deg);}
+}
+
